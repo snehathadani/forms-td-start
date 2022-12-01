@@ -25,4 +25,9 @@ Or you can use two-way-binding ("banana-in-a-box"-syntax), which is normally use
 
 -----
 
-● (ngModel) is not a valid syntax. But see my (ngModelChange) example belo
+● (ngModel) is not a valid syntax. But see my (ngModelChange) 
+
+ngModelGroup groupof all inputs that needs a key
+Provide a name for the sub-group and it will become the key for the sub-group in the form's full value.
+
+If you need direct access, export the directive into a local template variable using ngModelGroup (ex: #myGroup="ngModelGroup").
